@@ -50,16 +50,16 @@ npx skills add 491034170/english-coach -a claude-code -g -y
 
 ---
 
-**English Corrections:**
+**English Corrections / 英语修正：**
 
 > ~~dose this work for practice my english?~~ → **Does this work for practicing my English?**
 >
-> **[拼写]** "dose" → "does"
-> **[语法]** "for practice" → "for practicing" —— 介词 for 后面要用动名词（-ing 形式）
-> **[标点]** "english" → "English" —— 语言名称首字母要大写
+> **[Spelling / 拼写]** "dose" → "does" — wrong word / 拼写错误
+> **[Grammar / 语法]** "for practice" → "for practicing" — after "for", use the -ing form — 介词 for 后面要用动名词（-ing）
+> **[Punctuation / 标点]** "english" → "English" — language names are always capitalized — 语言名称首字母要大写
 
-**今日短语：** "get the hang of" —— 逐渐掌握、上手某件事。
-*例句：I'm starting to get the hang of English prepositions.（我开始掌握英语介词的用法了。）*
+**Phrase of the day / 今日短语：** "get the hang of" — to become comfortable with something new — 逐渐掌握、上手某件事。
+*Example / 例句：I'm starting to get the hang of English prepositions.（我开始掌握英语介词的用法了。）*
 
 ## 许可证
 

@@ -76,13 +76,13 @@ Then just chat normally in English. The skill will automatically correct and tea
 
 ---
 
-**English Corrections:**
+**English Corrections / 英语修正：**
 
 > ~~dose this work for practice my english?~~ → **Does this work for practicing my English?**
 >
-> **[Spelling]** "dose" → "does"
-> **[Grammar]** "for practice" → "for practicing" — after "for", use the -ing form
-> **[Punctuation]** "english" → "English" — language names are always capitalized
+> **[Spelling / 拼写]** "dose" → "does" — wrong word / 拼写错误
+> **[Grammar / 语法]** "for practice" → "for practicing" — after "for", use the -ing form — 介词 for 后面要用动名词（-ing）
+> **[Punctuation / 标点]** "english" → "English" — language names are always capitalized — 语言名称首字母要大写
 
 ## Example 2
 
@@ -95,12 +95,12 @@ Then just chat normally in English. The skill will automatically correct and tea
 
 ---
 
-**English Corrections:**
+**English Corrections / 英语修正：**
 
 > ~~His has a great time yesterday.~~ → **He had a great time yesterday.**
 >
-> **[Grammar]** "His" → "He" — "His" is possessive, "He" is a subject pronoun
-> **[Grammar]** "has" → "had" — "yesterday" indicates past time, so the verb should be past tense
+> **[Grammar / 语法]** "His" → "He" — "His" is possessive, "He" is a subject pronoun — His 是所有格，主语应用 He
+> **[Grammar / 语法]** "has" → "had" — "yesterday" indicates past time — yesterday 表示过去，动词要用过去式
 
 ## Example 3
 
@@ -113,16 +113,16 @@ Then just chat normally in English. The skill will automatically correct and tea
 
 ---
 
-**English Corrections:**
+**English Corrections / 英语修正：**
 
 > ~~I look forward to meet you and making a discussion about the project.~~ → **I look forward to meeting you and having a discussion about the project.**
 >
-> **[Grammar]** "look forward to meet you" → "look forward to meeting you" — After "look forward to," use the -ing form (gerund). The "to" here is a preposition, not part of an infinitive.
-> 
-> **[Word Choice]** "making a discussion" → "having a discussion" (or simply discussing) — In English, we "have" a discussion or "hold" a discussion — we don't "make" one.
+> **[Grammar / 语法]** "look forward to meet you" → "look forward to meeting you" — After "look forward to," use the -ing form (gerund). The "to" here is a preposition, not part of an infinitive. — look forward to 后面接动名词；这里的 to 是介词，不是不定式标记
+>
+> **[Word Choice / 用词]** "making a discussion" → "having a discussion" (or simply discussing) — In English, we "have" or "hold" a discussion — we don't "make" one. — 英语里讨论用 have/hold a discussion，不用 make
 
-**Phrase of the day:** "get the hang of" — to become comfortable with something new.
-*Example: "I'm starting to get the hang of English prepositions."*
+**Phrase of the day / 今日短语：** "get the hang of" — to become comfortable with something new — 逐渐掌握、上手某件事。
+*Example / 例句: "I'm starting to get the hang of English prepositions."（我开始掌握英语介词的用法了。）*
 
 ## License
 
