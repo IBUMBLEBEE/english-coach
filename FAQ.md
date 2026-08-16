@@ -126,6 +126,21 @@ Ask for stronger feedback.
 Please be direct and point out recurring mistakes clearly.
 ```
 
+## How do I sync corrections to Eudic (欧路词典)?
+
+1. Build/configure the Go Eudic MCP (`eudic-mcp-go`) — see [docs/eudic-mcp-setup.md](./docs/eudic-mcp-setup.md).
+2. Put `EUDIC_API_TOKEN` in the MCP config Cursor actually loads:
+   - **Remote SSH / Linux:** remote `~/.cursor/mcp.json`, `command` = Linux binary (e.g. `~/bin/eudic-mcp-go`)
+   - **Windows local:** `%USERPROFILE%\.cursor\mcp.json`, `command` = `.exe`
+3. Token only, **no** `NIS ` prefix — from <https://my.eudic.net/OpenAPI/Authorization>.
+4. Reload the Cursor window (or reconnect Remote), enable the skill, and chat as usual.
+
+On Remote SSH, MCP runs on the **remote** host — a Windows `.exe` will not work there.
+
+The skill creates/uses a study list named **`english-coach`**, then adds vocabulary + bilingual notes via MCP tools. Pure punctuation-only fixes are skipped.
+
+If MCP is missing or the token is invalid, coaching still works; sync is skipped with a short notice.
+
 ## Where should I give feedback or suggest improvements?
 
 - Discussions: <https://github.com/491034170/english-coach/discussions>

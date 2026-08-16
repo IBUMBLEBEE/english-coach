@@ -1,0 +1,4 @@
+# Local / secret files — do not commit
+.cursor/mcp.json
+.env
+*.token

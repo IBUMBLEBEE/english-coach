@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "eudic": {
+      "command": "C:\\data\\code\\go\\src\\eudic-mcp-go\\eudic-mcp-go.exe",
+      "env": {
+        "EUDIC_API_TOKEN": "REPLACE_WITH_YOUR_TOKEN"
+      }
+    }
+  }
+}

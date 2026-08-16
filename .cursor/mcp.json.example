@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "eudic": {
+      "command": "${env:HOME}/bin/eudic-mcp-go",
+      "env": {
+        "EUDIC_API_TOKEN": "REPLACE_WITH_YOUR_TOKEN"
+      }
+    }
+  }
+}

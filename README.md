@@ -124,6 +124,12 @@ Then just chat normally in English. The skill will automatically correct and tea
 **Phrase of the day / 今日短语：** "get the hang of" — to become comfortable with something new — 逐渐掌握、上手某件事。
 *Example / 例句: "I'm starting to get the hang of English prepositions."（我开始掌握英语介词的用法了。）*
 
+## Optional: Sync to Eudic (欧路词典)
+
+With a Go Eudic MCP server (`eudic-mcp-go`, [go-sdk](https://github.com/modelcontextprotocol/go-sdk)) configured in Cursor, English Coach can write vocabulary and bilingual correction notes into a study list named **`english-coach`**. Works on local Windows and **Cursor Remote SSH (Linux)** — use a Linux binary on the remote host.
+
+Setup: [docs/eudic-mcp-setup.md](./docs/eudic-mcp-setup.md) · FAQ: “How do I sync corrections to Eudic”
+
 ## License
 
 MIT
