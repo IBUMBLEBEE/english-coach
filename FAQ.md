@@ -143,6 +143,6 @@ If MCP is missing or the token is invalid, coaching still works; sync is skipped
 
 ## Where should I give feedback or suggest improvements?
 
-- Discussions: <https://github.com/491034170/english-coach/discussions>
-- Issues: <https://github.com/491034170/english-coach/issues>
-- Roadmap issue: <https://github.com/491034170/english-coach/issues/3>
+- Discussions: <https://github.com/tianmind-studio/english-coach/discussions>
+- Issues: <https://github.com/tianmind-studio/english-coach/issues>
+- Roadmap issue: <https://github.com/tianmind-studio/english-coach/issues/3>
