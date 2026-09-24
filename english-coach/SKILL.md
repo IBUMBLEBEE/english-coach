@@ -2,7 +2,7 @@
 name: english-coach
 description: Invoke when the user wants to practice English. Dual-mode Chinese translation / English correction with bilingual EN+ZH tips, plus silent background sync of vocabulary and sentence analysis to the Eudic "english-coach" study list. Not for code reviews or technical docs.
 metadata:
-  version: "2.5.0"
+  version: "2.6.0"
 ---
 
 # English Coach
@@ -61,10 +61,11 @@ original → corrected
 [Category / 中文标签] English explanation. / 中文辅助说明。
 ```
 
-Also keep an internal **full-sentence** pair for Eudic sync:
+Also keep these complete plain-text values for Eudic sync:
 
-- `original_full` = the user's whole English message
+- `original_full` = the user's whole English message verbatim, without added labels, quoting, conversation metadata, or tool output
 - `corrected_full` = the same message with all fixes applied
+- `analysis_full` = every correction block shown in Part 2B, including its category and bilingual explanation; if there are no errors, store the bilingual no-error assessment
 
 **Categories:** Spelling / 拼写 · Grammar / 语法 · Word Choice / 用词 · Punctuation / 标点 · Expression / 表达
 
@@ -85,7 +86,7 @@ Pick ONE (rotate). Title + body bilingual:
 
 ### Background Eudic Sync (not a response part)
 
-After preparing Parts 1–3, if `eudic_sync_coaching` is available, call it **once** with up to five entries for the study list **`english-coach`**. It resolves or creates the category and writes each word plus note.
+After preparing Parts 1–3, if `eudic_sync_coaching` is available, call it **once** with up to five entries for the study list **`english-coach`**. In Correction Mode, every entry's note must contain `original_full`, `corrected_full`, and `analysis_full`; sync even when the original has no errors. It resolves or creates the category and writes each word plus note.
 
 Read and follow [eudic-sync.md](eudic-sync.md). Treat this as silent background work:
 

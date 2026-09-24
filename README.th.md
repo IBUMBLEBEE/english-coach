@@ -1,6 +1,6 @@
 # English Coach
 
-สกิลสำหรับ [Claude Code](https://docs.anthropic.com/en/docs/claude-code) ที่เปลี่ยนทุกบทสนทนาให้เป็นคลาสฝึกภาษาอังกฤษ
+สกิลที่รองรับ **Codex, Cursor และ Claude Code** และเปลี่ยนทุกบทสนทนาให้เป็นคลาสฝึกภาษาอังกฤษ
 
 **ภาษาอื่น:**
 [English](./README.md) | [中文](./README.zh-CN.md) | [日本語](./README.ja.md) | [한국어](./README.ko.md) | [Español](./README.es.md) | [Português](./README.pt-BR.md) | [Tiếng Việt](./README.vi.md) | [Русский](./README.ru.md) | [العربية](./README.ar.md)
@@ -26,15 +26,15 @@
 ## ติดตั้ง
 
 ```bash
-npx skills add tianmind-studio/english-coach -a claude-code -g -y
+npx skills add tianmind-studio/english-coach -a codex cursor claude-code -g -y
 ```
 
 ## วิธีใช้
 
-ใน Claude Code พิมพ์:
+ใน Codex, Cursor หรือ Claude Code ให้เริ่มบทสนทนาใหม่และเลือก `english-coach` ตามชื่อ
 
 ```
-/english-coach
+Use the english-coach skill.
 ```
 
 จากนั้นแชทเป็นภาษาอังกฤษตามปกติ สกิลจะแก้ไขและสอนให้อัตโนมัติ

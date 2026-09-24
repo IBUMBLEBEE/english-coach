@@ -5,7 +5,7 @@
 English Coach is designed for non-native English speakers who want to improve through real daily usage rather than separate study sessions.
 
 Typical good fit:
-- developers using Claude Code in English
+- developers using Codex, Cursor, or Claude Code in English
 - professionals writing messages, summaries, and requests
 - learners who want practical correction in context
 
@@ -15,7 +15,7 @@ It does two jobs in one response:
 1. answer the real question
 2. coach your English
 
-That means you can keep using Claude for actual work while still improving.
+That means you can keep using your coding agent for actual work while still improving.
 
 ## Does it correct every single mistake?
 
@@ -58,7 +58,7 @@ Examples:
 
 Yes. It still answers technical questions first, then gives English coaching after that.
 
-This is why it works well in Claude Code.
+This is why it works well in Codex, Cursor, and Claude Code.
 
 ## Is this good for long essays or formal documents?
 
@@ -137,7 +137,7 @@ Please be direct and point out recurring mistakes clearly.
 
 On Remote SSH, MCP runs on the **remote** host — a Windows `.exe` will not work there.
 
-The skill creates/uses a study list named **`english-coach`**. For English corrections it stores **original + corrected** full sentences (and **Level up** when present) in each word's note using a 长句分析 template, plus `context_line` on the word. Pure punctuation tokens are not used as the only headword, but the sentence pair is still saved via a content-word anchor.
+The skill creates/uses a study list named **`english-coach`**. For every English correction it stores the verbatim original text, the fully corrected text, and the complete bilingual correction analysis (plus **Level up** when present) in each word's note using a 长句分析 template. If there is no lexical fix, a content word anchors the complete record.
 
 If MCP is missing or the token is invalid, coaching still works; sync is skipped with a short notice.
 

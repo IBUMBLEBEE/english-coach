@@ -1,6 +1,6 @@
 # English Coach
 
-Un skill de [Claude Code](https://docs.anthropic.com/en/docs/claude-code) que convierte cada conversación en una sesión de práctica de inglés.
+Un skill compatible con **Codex, Cursor y Claude Code** que convierte cada conversación en una sesión de práctica de inglés.
 
 **Otros idiomas:**
 [English](./README.md) | [中文](./README.zh-CN.md) | [日本語](./README.ja.md) | [한국어](./README.ko.md) | [Português](./README.pt-BR.md) | [Tiếng Việt](./README.vi.md) | [ภาษาไทย](./README.th.md) | [Русский](./README.ru.md) | [العربية](./README.ar.md)
@@ -26,15 +26,15 @@ Diseñado para **hablantes no nativos de inglés** que quieren mejorar su inglé
 ## Instalación
 
 ```bash
-npx skills add tianmind-studio/english-coach -a claude-code -g -y
+npx skills add tianmind-studio/english-coach -a codex cursor claude-code -g -y
 ```
 
 ## Uso
 
-En Claude Code, escribe:
+En Codex, Cursor o Claude Code, inicia una conversación nueva y selecciona `english-coach` por nombre.
 
 ```
-/english-coach
+Use the english-coach skill.
 ```
 
 Luego simplemente chatea en inglés como lo harías normalmente. El skill corregirá y enseñará automáticamente.

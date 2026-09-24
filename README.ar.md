@@ -2,7 +2,7 @@
 
 # English Coach
 
-مهارة لـ [Claude Code](https://docs.anthropic.com/en/docs/claude-code) تحوّل كل محادثة إلى جلسة تدريب على الإنجليزية.
+مهارة متوافقة مع **Codex وCursor وClaude Code** تحوّل كل محادثة إلى جلسة تدريب على الإنجليزية.
 
 **لغات أخرى:**
 [English](./README.md) | [中文](./README.zh-CN.md) | [日本語](./README.ja.md) | [한국어](./README.ko.md) | [Español](./README.es.md) | [Português](./README.pt-BR.md) | [Tiếng Việt](./README.vi.md) | [ภาษาไทย](./README.th.md) | [Русский](./README.ru.md)
@@ -30,19 +30,19 @@
 <div dir="ltr">
 
 ```bash
-npx skills add tianmind-studio/english-coach -a claude-code -g -y
+npx skills add tianmind-studio/english-coach -a codex cursor claude-code -g -y
 ```
 
 </div>
 
 ## الاستخدام
 
-في Claude Code، اكتب:
+في Codex أو Cursor أو Claude Code، ابدأ محادثة جديدة واختر `english-coach` بالاسم.
 
 <div dir="ltr">
 
 ```
-/english-coach
+Use the english-coach skill.
 ```
 
 </div>

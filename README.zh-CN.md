@@ -1,18 +1,18 @@
 # English Coach
 
-一个 [Claude Code](https://docs.anthropic.com/en/docs/claude-code) 技能，让每次对话都变成英语练习课。
+一个支持 **Codex、Cursor 和 Claude Code** 的 Agent Skill，让每次对话都变成英语练习课。
 
 **其他语言版本：**
 [English](./README.md) | [日本語](./README.ja.md) | [한국어](./README.ko.md) | [Español](./README.es.md) | [Português](./README.pt-BR.md) | [Tiếng Việt](./README.vi.md) | [ภาษาไทย](./README.th.md) | [Русский](./README.ru.md) | [العربية](./README.ar.md)
 
 ## 它能做什么
 
-激活后，Claude 会在每次回复中做这些事：
+激活后，AI 编程助手会在每次回复中做这些事：
 
 1. **正常回答你的问题** —— 先把正事办了
 2. **纠正你的英语** —— 语法、拼写、用词、标点、表达方式（中英双语讲解）
 3. **教你点新东西** —— 实用短语、语法技巧、更地道的说法
-4. **（可选）同步到欧路词典** —— 生词本 `english-coach`：写入词条，并把**原文 / 修正句 / Level up**以长句分析笔记保存
+4. **（可选）同步到欧路词典** —— 生词本 `english-coach`：写入词条，并把**原文 / 修正句 / 完整纠正解析 / Level up**以长句分析笔记保存
 
 专为**非英语母语者**设计。不用背单词、不用刷题，在日常使用中自然提升英语水平。
 
@@ -29,25 +29,21 @@
 ## 安装
 
 ```bash
-npx skills add tianmind-studio/english-coach -a claude-code -g -y
+npx skills add tianmind-studio/english-coach -a codex cursor claude-code -g -y
 ```
+
+如果只安装到一个客户端，可单独使用 `-a codex`、`-a cursor` 或 `-a claude-code`。
 
 ## 使用方法
 
-在 Claude Code 中输入：
-
-```
-/english-coach
-```
-
-然后正常用英语聊天就行。Skill 会自动纠正并教学。
+在 Codex、Cursor 或 Claude Code 中开启新对话，请助手使用 `english-coach`；如果客户端提供 Skill 选择器，也可以直接按名称选择。然后正常用英语聊天，Skill 会自动纠正并教学。
 
 ## 示例
 
 **你说：**
 > dose this work for practice my english?
 
-**Claude 回复：**
+**AI 助手回复：**
 
 *（正常回答你的问题）*
 

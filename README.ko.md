@@ -1,6 +1,6 @@
 # English Coach
 
-모든 대화를 영어 연습 시간으로 바꿔주는 [Claude Code](https://docs.anthropic.com/en/docs/claude-code) 스킬입니다.
+모든 대화를 영어 연습 시간으로 바꿔주는 **Codex, Cursor, Claude Code** 호환 스킬입니다.
 
 **다른 언어：**
 [English](./README.md) | [中文](./README.zh-CN.md) | [日本語](./README.ja.md) | [Español](./README.es.md) | [Português](./README.pt-BR.md) | [Tiếng Việt](./README.vi.md) | [ภาษาไทย](./README.th.md) | [Русский](./README.ru.md) | [العربية](./README.ar.md)
@@ -26,15 +26,15 @@
 ## 설치
 
 ```bash
-npx skills add tianmind-studio/english-coach -a claude-code -g -y
+npx skills add tianmind-studio/english-coach -a codex cursor claude-code -g -y
 ```
 
 ## 사용법
 
-Claude Code에서 다음을 입력하세요:
+Codex, Cursor 또는 Claude Code에서 새 대화를 시작하고 `english-coach`를 이름으로 선택하세요.
 
 ```
-/english-coach
+Use the english-coach skill.
 ```
 
 그런 다음 영어로 평소처럼 대화하면 됩니다. 스킬이 자동으로 교정하고 가르쳐줍니다.

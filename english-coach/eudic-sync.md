@@ -20,20 +20,21 @@ Whenever Part 2B ran on English input, build these strings first:
 
 | Field | Source |
 |-------|--------|
-| `original_full` | The user's **entire** English message (trim only) |
+| `original_full` | The user's **entire** English message verbatim (trim surrounding whitespace only); exclude labels, Markdown quoting added by the assistant, conversation metadata, and tool output |
 | `corrected_full` | The **fully corrected** version of that message (all fixes applied) |
+| `analysis_full` | Every Part 2B correction block, preserving each category plus its English explanation and Chinese gloss; when there are no errors, use the bilingual no-error assessment |
 | `level_up_full` | Part 3 **Level up** sentence if present; else omit |
 
-Both `original_full` and `corrected_full` must appear in every synced word's `note`. Do not store only isolated tokens.
+Every synced word's `note` must contain `original_full`, `corrected_full`, and `analysis_full`. A Correction Mode sync is incomplete if any of these three blocks is absent. Do not store only isolated tokens.
 
-If there were **no vocabulary headwords** (e.g. only punctuation) but the sentence still changed, still sync: pick **1–2 content words** from `corrected_full` as anchors so the sentence pair is stored.
+Always sync after Correction Mode, including when the original has no errors. If there are no vocabulary headwords, choose one or two content words from `corrected_full` as anchors so the full record is stored.
 
 ---
 
 ### Headwords
 
 - Choose lexical fixes as lemmas or phrases, maximum five.
-- For punctuation-only changes, choose one or two content words from `corrected_full` as anchors.
+- When there are no lexical fixes, choose one or two content words from `corrected_full` as anchors.
 - Do not use a punctuation token or `i` → `I` as the sole headword.
 
 ### Note template
@@ -47,6 +48,9 @@ Use this template as each entry's `note` (same sentence block; **Focus** highlig
 【修正 Corrected】
 <corrected_full>
 
+【纠正解析 Correction analysis】
+<analysis_full: every correction with category, English explanation, and Chinese gloss; or the bilingual no-error assessment>
+
 【进阶 Level up】
 <level_up_full or (无 / none)>
 （中文译文，若有）
@@ -59,7 +63,7 @@ Use this template as each entry's `note` (same sentence block; **Focus** highlig
 - …
 ```
 
-For each headword, keep the same sentence blocks and tailor `Focus` to that word. Keep every tip bilingual. If no Level up exists, use `（本回合无 Level up / none this turn）`.
+For each headword, keep the Original, Corrected, and Correction analysis blocks identical and complete; tailor only `Focus` to that word. Keep every tip bilingual. If no Level up exists, use `（本回合无 Level up / none this turn）`.
 
 ## Translation Mode and standalone learning items
 

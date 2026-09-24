@@ -1,11 +1,11 @@
 # English Coach
 
-A [Claude Code](https://docs.anthropic.com/en/docs/claude-code) skill that turns every conversation into an English practice session.
+An agent skill for **Codex, Cursor, and Claude Code** that turns every conversation into an English practice session.
 
 [![Release](https://img.shields.io/github/v/release/tianmind-studio/english-coach)](https://github.com/tianmind-studio/english-coach/releases/latest)
 [![Live Guide](https://img.shields.io/badge/Live_Guide-GitHub_Pages-4FACFE)](https://tianmind-studio.github.io/english-coach/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
-[![Built for Claude Code](https://img.shields.io/badge/built%20for-Claude%20Code-8A2BE2)](https://docs.anthropic.com/en/docs/claude-code)
+[![Agent Skills](https://img.shields.io/badge/works%20with-Codex%20%7C%20Cursor%20%7C%20Claude%20Code-8A2BE2)](https://skills.sh/)
 
 Quick links:
 - Live guide: <https://tianmind-studio.github.io/english-coach/>
@@ -20,13 +20,13 @@ Quick links:
 
 ## Why people star this repo
 
-- It turns everyday Claude usage into English practice without changing your workflow
+- It turns everyday AI-assisted work into English practice without changing your workflow
 - It answers first, then teaches — so it stays useful even when you are not in "study mode"
 - It works well for non-native speakers who want practical, daily improvement instead of textbook drills
 
 ## What it does
 
-When activated, Claude will:
+When activated, your coding agent will:
 
 1. **Answer your question normally** — it does its actual job first
 2. **Correct your English** — grammar, spelling, word choice, punctuation, expression
@@ -44,33 +44,24 @@ Designed for **non-native English speakers** who want to improve their English t
 
 ## Install
 
-Option 1 — install directly from GitHub:
+Install globally for Codex, Cursor, and Claude Code:
 
 ```bash
-npx skills add tianmind-studio/english-coach -a claude-code -g -y
+npx skills add tianmind-studio/english-coach -a codex cursor claude-code -g -y
 ```
 
-Option 2 — install from a packaged release:
-1. Open <https://github.com/tianmind-studio/english-coach/releases/latest>
-2. Download `english-coach.skill`
-3. Import it into Claude Code / Claude Desktop
+To install for only one client, pass just its agent name, such as `-a codex`, `-a cursor`, or `-a claude-code`.
 
 ## Usage
 
-In Claude Code, type:
-
-```
-/english-coach
-```
-
-Then just chat normally in English. The skill will automatically correct and teach as you go.
+Start a new conversation in Codex, Cursor, or Claude Code and ask it to use `english-coach`, or select the skill by name where the client provides a skill picker. Then chat normally in English; the skill will correct and teach as you go.
 
 ## Example 1
 
 **You say:**
 > dose this work for practice my english?
 
-**Claude responds:**
+**The agent responds:**
 
 *(answers your question)*
 
@@ -89,7 +80,7 @@ Then just chat normally in English. The skill will automatically correct and tea
 **You say:**
 > His has a great time yesterday.
 
-**Claude responds:**
+**The agent responds:**
 
 *(answers your question)*
 
@@ -107,7 +98,7 @@ Then just chat normally in English. The skill will automatically correct and tea
 **You say:**
 > I look forward to meet you and making a discussion about the project.
 
-**Claude responds:**
+**The agent responds:**
 
 *(answers your question)*
 

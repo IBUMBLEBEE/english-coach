@@ -1,6 +1,6 @@
 # English Coach
 
-Một skill của [Claude Code](https://docs.anthropic.com/en/docs/claude-code) biến mọi cuộc hội thoại thành buổi luyện tiếng Anh.
+Một skill hỗ trợ **Codex, Cursor và Claude Code**, biến mọi cuộc hội thoại thành buổi luyện tiếng Anh.
 
 **Ngôn ngữ khác:**
 [English](./README.md) | [中文](./README.zh-CN.md) | [日本語](./README.ja.md) | [한국어](./README.ko.md) | [Español](./README.es.md) | [Português](./README.pt-BR.md) | [ภาษาไทย](./README.th.md) | [Русский](./README.ru.md) | [العربية](./README.ar.md)
@@ -26,15 +26,15 @@ Thiết kế cho **người không phải bản ngữ tiếng Anh** muốn cải
 ## Cài đặt
 
 ```bash
-npx skills add tianmind-studio/english-coach -a claude-code -g -y
+npx skills add tianmind-studio/english-coach -a codex cursor claude-code -g -y
 ```
 
 ## Cách dùng
 
-Trong Claude Code, gõ:
+Trong Codex, Cursor hoặc Claude Code, hãy bắt đầu cuộc trò chuyện mới và chọn `english-coach` theo tên.
 
 ```
-/english-coach
+Use the english-coach skill.
 ```
 
 Sau đó chat bằng tiếng Anh bình thường. Skill sẽ tự động sửa và dạy.

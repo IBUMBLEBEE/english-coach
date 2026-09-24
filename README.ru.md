@@ -1,6 +1,6 @@
 # English Coach
 
-Навык для [Claude Code](https://docs.anthropic.com/en/docs/claude-code), который превращает каждый разговор в урок английского.
+Навык для **Codex, Cursor и Claude Code**, который превращает каждый разговор в урок английского.
 
 **Другие языки:**
 [English](./README.md) | [中文](./README.zh-CN.md) | [日本語](./README.ja.md) | [한국어](./README.ko.md) | [Español](./README.es.md) | [Português](./README.pt-BR.md) | [Tiếng Việt](./README.vi.md) | [ภาษาไทย](./README.th.md) | [العربية](./README.ar.md)
@@ -26,15 +26,15 @@
 ## Установка
 
 ```bash
-npx skills add tianmind-studio/english-coach -a claude-code -g -y
+npx skills add tianmind-studio/english-coach -a codex cursor claude-code -g -y
 ```
 
 ## Использование
 
-В Claude Code введите:
+В Codex, Cursor или Claude Code начните новый диалог и выберите `english-coach` по имени.
 
 ```
-/english-coach
+Use the english-coach skill.
 ```
 
 Затем просто общайтесь на английском как обычно. Навык автоматически исправляет и обучает.
